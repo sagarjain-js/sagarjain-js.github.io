@@ -9,6 +9,7 @@ header {
   background-color: #333;
   color: #fff;
   padding: 20px;
+  text-align: center;
 }
 
 nav ul {
@@ -28,11 +29,14 @@ nav ul li a {
 }
 
 section {
-  padding: 20px;
+  padding: 50px 0;
+  text-align: center;
 }
 
 section h2 {
   color: #333;
+  margin-bottom: 30px;
+  font-size: 36px;
 }
 
 .container {
@@ -43,23 +47,49 @@ section h2 {
 .row {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 -10px;
+  margin: 0 -20px;
 }
 
 .column {
   flex-basis: 50%;
-  padding: 0 10px;
+  padding: 0 20px;
 }
 
-section ul {
-  list-style-type: none;
-  padding: 0;
+.section-about {
+  background-color: #f9f9f9;
 }
 
-section ul li {
+.section-projects {
+  background-color: #eaeaea;
+}
+
+.section-contact {
+  background-color: #f2f2f2;
+}
+
+.section-about p,
+.section-projects p,
+.section-contact p {
+  font-size: 18px;
+  line-height: 1.6;
   margin-bottom: 20px;
 }
 
-section ul li h3 {
+.section-projects .column {
+  margin-bottom: 40px;
+}
+
+.section-projects h3 {
   color: #333;
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+.section-contact p {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.section-contact p:last-child {
+  margin-bottom: 0;
 }
